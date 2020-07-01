@@ -29,8 +29,6 @@ export const Text = styled(Typography)`
   min-height: 16px;
   letter-spacing: -0.4px;
   margin-bottom: 8px;
-  color: ${props => props.gray ? "#b8b8b8" : "#000000"};
-  text-align: ${props => props.right && "right"};
 `
 
 export const EmptyCartWrapper = styled.div`

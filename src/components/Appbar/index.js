@@ -35,8 +35,6 @@ export function Appbar(props) {
         case 'feed':
             content = <S.CenteredContent>
                 <Typography variant="h6">Ifuture</Typography>
-
-                {/* Sei que não tem logout no design, mas fiz pra deixar a usabilidade melhor na hora de apresentar como portfólio */}
                 <S.Logout size="small" color='primary' onClick={logout}>
                     <PowerSettingsNewRounded/>
                 </S.Logout>

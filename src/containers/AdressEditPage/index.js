@@ -75,7 +75,7 @@ class AdressEditPage extends React.Component {
             type="text"
             id="outlined-required"
             label="Logradouro"
-            value={logradouro}
+            value={logradouro || ""}
             onChange={handleInputs}
             placeholder="Rua / Av."
             variant="outlined"
@@ -93,7 +93,7 @@ class AdressEditPage extends React.Component {
             type="number"
             id="outlined-required"
             label="Número"
-            value={numero}
+            value={numero || ""}
             onChange={handleInputs}
             placeholder="Número"
             margin="normal"
@@ -107,7 +107,7 @@ class AdressEditPage extends React.Component {
             type="text"
             id="outlined-required"
             label="Complemento"
-            value={complemento}
+            value={complemento || ""}
             onChange={handleInputs}
             placeholder="Apto./Bloco"
             margin="normal"
@@ -122,7 +122,7 @@ class AdressEditPage extends React.Component {
             type="text"
             id="outlined-required"
             label="Bairro"
-            value={bairro}
+            value={bairro || ""}
             onChange={handleInputs}
             placeholder="Bairro"
             margin="normal"
@@ -141,7 +141,7 @@ class AdressEditPage extends React.Component {
             type="text"
             id="outlined-required"
             label="Cidade"
-            value={cidade}
+            value={cidade || ""}
             onChange={handleInputs}
             placeholder="Cidade"
             margin="normal"
@@ -160,7 +160,7 @@ class AdressEditPage extends React.Component {
             type="text"
             id="outlined-required"
             label="Estado"
-            value={estado}
+            value={estado || ""}
             onChange={handleInputs}
             placeholder="Estado"
             margin="normal"

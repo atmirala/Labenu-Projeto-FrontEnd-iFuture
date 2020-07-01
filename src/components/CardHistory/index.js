@@ -10,18 +10,17 @@ export function CardHistory(props){
 
     return (
         <S.Order>
-            <S.TextStyled red>
+            <S.TextStyled color="primary">
                 {order.restaurantName}
             </S.TextStyled>
 
-            <S.TextStyled sizep spacing>
+            <S.DateStyled>
                 {date}
-            </S.TextStyled>
+            </S.DateStyled>
 
-            <S.TextStyled weight>
+            <S.TextStyled weight="bold">
                 SUBTOTAL {order.totalPrice.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
             </S.TextStyled>
-            
         </S.Order>
     )
 }

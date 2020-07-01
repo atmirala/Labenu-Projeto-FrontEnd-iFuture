@@ -40,7 +40,7 @@ export const Category = styled(Typography)`
     text-align: center;
     color: #000000;
     :hover{
-        color: ${props => props.personalizedColor ? "#e8222e" : "#000000"};
+        color: ${props => props.personalizedcolor};
     }
 `
 

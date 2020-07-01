@@ -47,7 +47,7 @@ function FeedPage(props) {
   let categoriesPersonalized 
   if(categoryClicked){
     categoriesPersonalized = categories.map(category => (
-      <S.Category key={category} onClick={() => selectCategory(category)} personalizedColor>
+      <S.Category key={category} onClick={() => selectCategory(category)} personalizedcolor="#e8222e">
         {category}
       </S.Category>
     ))

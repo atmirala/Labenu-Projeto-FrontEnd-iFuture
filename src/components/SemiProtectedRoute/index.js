@@ -4,7 +4,7 @@ import { Route, Redirect } from "react-router-dom";
 export const SemiProtectedRoute = ({ component: Component, ...rest }) => {
     const token = localStorage.getItem('token')
     const getRedirectProps = (location) => ({
-        pathname: "/login", // redireciona pro login
+        pathname: "/login",
         from: location
     });
     return (

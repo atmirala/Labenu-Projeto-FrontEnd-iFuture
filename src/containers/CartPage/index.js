@@ -35,18 +35,16 @@ function CartPage(props) {
       <Appbar page='cart' />
 
       <S.Container>
-
         <S.AdressBoxWrapper>
-          <S.Text gray> Endereço da entrega </S.Text>
-          <S.Text> {user.address} </S.Text>
+          <S.Text color="secondary"> Endereço da entrega </S.Text>
+          <S.Text color="textPrimary"> {user.address} </S.Text>
         </S.AdressBoxWrapper>
 
         <CartMain filteredList={filteredList} restaurant={restaurant} />
         <CartFooter filteredList={filteredList} infoQuantity={infoQuantity} restaurant={restaurant} order={order} />
-
       </S.Container>
       
-      <Bottombar pagxe='cart' />
+      <Bottombar page='cart' />
     </S.ContentWrapper>
   )
 }

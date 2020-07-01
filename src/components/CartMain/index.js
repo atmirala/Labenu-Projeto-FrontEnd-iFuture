@@ -20,14 +20,14 @@ export function CartMain(props) {
                 <S.FullCartWrapper>
 
                     <S.DivMain>
-                        <S.Text red> {restaurant.name} </S.Text>
+                        <S.Text color="primary"> {restaurant.name} </S.Text>
                         <S.Text> {restaurant.address} </S.Text>
                         <S.Text> {restaurant.deliveryTime - 10} - {restaurant.deliveryTime} min </S.Text>
                     </S.DivMain>
 
                     {filteredList
                         .map(item => (
-                            <CardFoodInCart item={item} />
+                            <CardFoodInCart item={item} key={item.id}/>
                         ))}
 
                 </S.FullCartWrapper>

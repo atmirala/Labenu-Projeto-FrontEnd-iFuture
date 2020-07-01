@@ -64,7 +64,7 @@ class ProfileEditPage extends Component {
                   inputProps={{ pattern: field.pattern }}
                   required={field.required}
                   title={field.title}
-                  value={this.state.form[field.name]}
+                  value={this.state.form[field.name] || ""}
                   onChange={this.handleInput}
                   InputLabelProps={{
                     shrink: true,

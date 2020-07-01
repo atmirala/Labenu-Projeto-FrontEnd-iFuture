@@ -13,7 +13,7 @@ export const Text = styled(Typography)`
     height: 16px;
     letter-spacing: -0.4px;
     margin-bottom: 8px;
-    color: ${props => props.red ? "#e8222e" : "#000000"};
+    /* color: ${props => props.red }; */
 `
 
 export const FullCartWrapper = styled.div`

@@ -5,7 +5,7 @@ export const ProtectedRoute = ({ component: Component, ...rest }) => {
     const token = localStorage.getItem('token')
     const hasAddress = localStorage.getItem('hasAddress')
     const getRedirectProps = (location) => ({
-        pathname: "/login", // redireciona pro login
+        pathname: "/login",
         from: location
     });
     return (

@@ -10,9 +10,6 @@ export const Text = styled(Typography)`
     height: 16px;
     letter-spacing: -0.4px;
     margin-bottom: 8px;
-    color: ${props => props.red ? "#e8222e" : "#000000"};
-    text-align: ${props => props.right && "right"};
-    font-weight: ${props => props.bold && "bold"};
 `
 
 export const PriceBoxWrapper = styled.div`
@@ -48,7 +45,7 @@ export const ConfirmButtonWrapper = styled(Button)`
     width: 100%;
     height: 42px;
     border-radius: 2px;
-    background-color: ${props => props.color};
-    margin: ${props => props.marginTop} 0 16px 0;
+    background-color: ${props => props.bgcolor};
+    margin: ${props => props.margintop} 0 16px 0;
     margin-bottom: 64px;
 `

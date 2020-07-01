@@ -35,12 +35,12 @@ function ProfilePage(props) {
         <S.IconEdit src={require("../../assets/edit.svg")} alt='Voltar' onClick={goToProfileEdit} />
 
         <S.AdressContainer>
-          <S.TextStyled grey> Endereço cadastrado </S.TextStyled>
+          <S.TextStyled color="secondary"> Endereço cadastrado </S.TextStyled>
           <S.TextStyled> {user.address} </S.TextStyled>
           <S.IconEdit src={require("../../assets/edit.svg")} alt='Voltar' onClick={goToAdressEdit} />
         </S.AdressContainer>
 
-        <S.TextStyled line> Histórico de pedidos </S.TextStyled>
+        <S.TextStyled line="1px solid #000000"> Histórico de pedidos </S.TextStyled>
 
         {orders.length === 0
           ?

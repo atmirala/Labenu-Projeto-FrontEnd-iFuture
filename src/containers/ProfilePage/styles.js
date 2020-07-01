@@ -18,8 +18,7 @@ export const TextStyled = styled(Typography)`
     font-size: 16px;
     letter-spacing: -0.4px;
     margin-bottom: 8px;
-    color: ${props => props.grey && "#b8b8b8" };
-    border-bottom: ${props => props.line && "1px solid #000000" };
+    border-bottom: ${props => props.line};
 `
 
 export const AdressContainer = styled.div`

@@ -12,13 +12,17 @@ export const Order = styled(Card)`
     padding: 8px 16px;
 `
 
+export const DateStyled = styled(Typography)`
+    min-height: 18px;
+    font-size: 12px;
+    letter-spacing: -0.29px;
+    margin-bottom: 8px;
+`
+
 export const TextStyled = styled(Typography)`
     min-height: 18px;
     font-size: 16px;
     letter-spacing: -0.4px;
     margin-bottom: 8px;
-    color: ${props => props.red ? "#e8222e" : "#000000"};
-    font-size: ${props => props.sizep ? "12px" : "16px" };
-    letter-spacing: ${props => props.spacing ? "-0.29px" : "-0.39px"};
-    font-weight: ${props => props.weight && "bold"};
+    font-weight: ${props => props.weight};
 `

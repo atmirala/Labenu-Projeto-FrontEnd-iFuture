@@ -51,19 +51,20 @@ export function CartFooter(props) {
         <S.CartFooterWrapper>
 
             {Object.keys(restaurant).length === 0
-                ? <S.Text right> Frete R$0,00 </S.Text>
+                ? <S.Text align="right"> Frete R$0,00 </S.Text>
                 : infoQuantity.length === 0
-                    ? <S.Text right> Frete R$0,00 </S.Text>
-                    : <S.Text right> Frete {restaurant.shipping.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })} </S.Text>
+                    ? <S.Text align="right"> Frete R$0,00 </S.Text>
+                    : <S.Text align="right"> Frete {restaurant.shipping.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })} </S.Text>
             }
+
 
             <S.PriceBoxWrapper>
                 <S.Text> SUBTOTAL </S.Text>
                 {Object.keys(restaurant).length === 0
-                    ? <S.Text red bold>R$00,00</S.Text>
+                    ? <S.Text color="primary" style={{fontWeight: "bold"}}>R$00,00</S.Text>
                     : infoQuantity.length === 0
-                        ? <S.Text red bold>R$00,00</S.Text>
-                        : <S.Text red bold> {subtotal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })} </S.Text>
+                        ? <S.Text color="primary" style={{fontWeight: "bold"}}>R$00,00</S.Text>
+                        : <S.Text color="primary" style={{fontWeight: "bold"}}> {subtotal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })} </S.Text>
                 }
             </S.PriceBoxWrapper>
 
@@ -99,8 +100,8 @@ export function CartFooter(props) {
                 </S.PayementOptionBoxWrapper>
 
                 <S.ConfirmButtonWrapper
-                    marginTop={Object.keys(restaurant).length !== 0 && restaurant.products.length === 0 ? '145px' : '19px'}
-                    color={Object.keys(restaurant).length !== 0 && restaurant.products.length === 0 ? 'rgba(232, 34, 46, 0.5)' : '#e8222e'}
+                    margintop={Object.keys(restaurant).length !== 0 && restaurant.products.length === 0 ? '145px' : '19px'}
+                    bgcolor={Object.keys(restaurant).length !== 0 && restaurant.products.length === 0 ? 'rgba(232, 34, 46, 0.5)' : '#e8222e'}
                     type='onsubmit'
                 >
                     Confirmar

@@ -162,7 +162,7 @@ class SignupPage extends Component {
                   label={field.label}
                   name={field.name}
                   placeholder={field.placeholder}
-                  value={this.state.form[field.name]}
+                  value={this.state.form[field.name] || ""}
                   onChange={this.handleInput}
                   type={field.type}
                   required={field.required}

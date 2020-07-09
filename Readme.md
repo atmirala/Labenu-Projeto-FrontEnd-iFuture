@@ -137,7 +137,7 @@ Copyright :copyright: 2020 - 4eddit
 
 <div align="center">
 
-| [<img src="https://avatars1.githubusercontent.com/u/24879021?s=460&u=96e0d2417f7231cea3d1f70eaeb068ce26295a1c&v=4" width=115><br><sub>Mackson Welton Dias da Silva</sub>](https://github.com/MacksonWelton) |  [<img src="https://avatars2.githubusercontent.com/u/58155127?s=460&u=669a5b9c80a44d3ba2834ecd3d2de8bae3d950db&v=4" width=115><br><sub>Thales Fernando Milanezi</sub>](https://github.com/ThalesMilanezi) |  [<img src="https://avatars3.githubusercontent.com/u/55435139?s=460&u=6ca287d1773f744571f2f07f1adf5ee6503c3025&v=4" width=115><br><sub>Vinícius Abuhid</sub>](hhttps://github.com/ViniciusAbuhid) |
+| [<img src="https://avatars1.githubusercontent.com/u/24879021?s=460&u=96e0d2417f7231cea3d1f70eaeb068ce26295a1c&v=4" width=115><br><sub>Mackson Welton Dias da Silva</sub>](https://github.com/MacksonWelton) |  [<img src="https://avatars2.githubusercontent.com/u/58155127?s=460&u=669a5b9c80a44d3ba2834ecd3d2de8bae3d950db&v=4" width=115><br><sub>Thales Fernando Milanezi</sub>](https://github.com/ThalesMilanezi) |  [<img src="https://avatars3.githubusercontent.com/u/55435139?s=460&u=6ca287d1773f744571f2f07f1adf5ee6503c3025&v=4" width=115><br><sub>Vinícius Abuhid</sub>](https://github.com/ViniciusAbuhid) |
 | :---: | :---: | :---: 
 
 </div>

@@ -4,19 +4,18 @@ Desenvolvimento de aplicações completas, incluindo frontend Web com React e ba
 ![Screenshot_1](https://user-images.githubusercontent.com/45580434/79641791-06e1c100-8170-11ea-8ecf-b6c889805d55.png)
 <br>
 
-## Frontend - Projeto Final: iFuture
+# Frontend - Projeto Final: iFuture
 
-Site do projeto: [link](http://ifuture-sagan.surge.sh/)
+:dash: [Deploy da aplicação](http://ifuture-sagan.surge.sh/)
+
+[Documentação da API](https://documenter.getpostman.com/view/7549981/SWTEdGtT?version=latest)
 
 <p align="center">
   <img  height='600' src='https://user-images.githubusercontent.com/45580434/79641732-bd917180-816f-11ea-810b-59ee03a3367b.gif'>
 </p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/future4code/sagan-4food-B">
-
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/future4code/sagan-4food-B">
-
+ 
   <a href="https://github.com/future4code/sagan-4food-B/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/future4code/sagan-4food-B">
   </a>
@@ -27,26 +26,10 @@ Site do projeto: [link](http://ifuture-sagan.surge.sh/)
 
    <img alt="Repository size" src="https://img.shields.io/github/repo-size/future4code/sagan-4food-B">
 </p>
+
 <br>
 
-**Desenvolvido por:**
-* [Mackson Welton Dias da Silva](https://github.com/MacksonWelton)
-* [Rosana Carolino Rezende](https://github.com/rosanarezende) 
-* [Thales Fernando Milanezi](https://github.com/ThalesMilanezi)
-* [Vinícius Abuhid](https://github.com/ViniciusAbuhid)
-<br>
-
-**Layout por:**
-* [Camila Mizutani](https://www.linkedin.com/in/camila-mizutani-257495bb/)
-<br><br>
-
-### Escopo do projeto
-Criar uma plataforma de delivery online: iFuture.
-
-[Documentação da API](https://documenter.getpostman.com/view/7549981/SWTEdGtT?version=latest)
-<br><br>
-
-### Principais tecnologias/ferramentas utilizadas
+## Principais tecnologias/ferramentas utilizadas
 
 1. React
 2. Redux
@@ -58,4 +41,103 @@ Criar uma plataforma de delivery online: iFuture.
 8. Formulários com Validação
 9. Teste unitário de lógica e de componentes
 10. Responsividade e adaptação de aplicação web para front.
+
 <br><br>
+
+## Escopo do projeto
+
+Criar uma plataforma de delivery online, o iFuture, com base no layout desenvolvido por uma design muito experiente, a Camila Mizutani.
+
+<br><br>
+
+## Como rodar a aplicação
+
+No terminal, clone o projeto:
+```
+git clone 
+```
+
+Entre na pasta do projeto:
+```
+cd Labenu-Projeto-FrontEnd-iFuture/app
+```
+
+Instale as dependências:
+```
+npm install
+```
+
+Execute a aplicação:
+```
+npm start 
+```
+
+<br>
+
+## Contribuição
+
+Contribuições com o projeto são muito apreciadas. Para isso:
+
+- Faça um Fork do projeto
+
+- Crie uma branch para sua feature
+```
+git checkout -b feature
+```
+
+- Adicione as mudanças
+```
+git add . 
+```
+
+- _Commit_ as mudanças 
+```
+git commit -m 'Adicionando a feature X'
+```
+
+- Faça o push da branch 
+```
+git push origin feature
+```
+
+- Abra um Pull Request
+
+<br>
+
+## Licença
+
+The [MIT License]() (MIT)
+
+Copyright :copyright: 2020 - 4eddit
+
+<br>
+
+## Canais de comunicação
+
+**Rosana-Rezende**: *Desenvolvedora web full-stack | Advogada | MBA em gestão: inteligência de negócios digitais - FGV*
+
+- [Linkedin](https://www.linkedin.com/in/rosanarezende/)
+- [Github](https://github.com/rosanarezende)
+- [Email](rezende_rosana@hotmail.com)
+
+<br><br>
+
+## Designer
+
+<div align="center">
+
+[<img src="https://media-exp1.licdn.com/dms/image/C4E03AQFW94zSWB_EDA/profile-displayphoto-shrink_400_400/0?e=1599696000&v=beta&t=JlbI8zI3NgU-ORkIQPZJvwV5CzD8-W0Ad46eAxRQaEU" width=115><br><sub>Camila Mizutani</sub>](https://www.linkedin.com/in/camila-mizutani-257495bb/) |
+| :---:
+
+</div>
+
+<br><br>
+
+## Desenvolvedores/Contribuintes :octocat:
+
+<div align="center">
+
+| [<img src="https://avatars1.githubusercontent.com/u/24879021?s=460&u=96e0d2417f7231cea3d1f70eaeb068ce26295a1c&v=4" width=115><br><sub>Mackson Welton Dias da Silva</sub>](https://github.com/MacksonWelton) |  [<img src="https://avatars2.githubusercontent.com/u/58155127?s=460&u=669a5b9c80a44d3ba2834ecd3d2de8bae3d950db&v=4" width=115><br><sub>Thales Fernando Milanezi</sub>](https://github.com/ThalesMilanezi) |  [<img src="https://avatars3.githubusercontent.com/u/55435139?s=460&u=6ca287d1773f744571f2f07f1adf5ee6503c3025&v=4" width=115><br><sub>Vinícius Abuhid</sub>](hhttps://github.com/ViniciusAbuhid) |
+| :---: | :---: | :---: 
+
+</div>

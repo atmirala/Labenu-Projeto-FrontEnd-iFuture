@@ -42,13 +42,13 @@ Desenvolvimento de aplicações completas, incluindo frontend Web com React e ba
 9. Teste unitário de lógica e de componentes
 10. Responsividade e adaptação de aplicação web para front.
 
-<br><br>
+<br>
 
 ## Escopo do projeto
 
 Criar uma plataforma de delivery online, o iFuture, com base no layout desenvolvido por uma design muito experiente, a Camila Mizutani.
 
-<br><br>
+<br>
 
 ## Como rodar a aplicação
 
@@ -120,7 +120,7 @@ Copyright :copyright: 2020 - 4eddit
 - [Github](https://github.com/rosanarezende)
 - [Email](rezende_rosana@hotmail.com)
 
-<br><br>
+<br>
 
 ## Designer
 
@@ -131,7 +131,7 @@ Copyright :copyright: 2020 - 4eddit
 
 </div>
 
-<br><br>
+<br>
 
 ## Desenvolvedores/Contribuintes :octocat:
 

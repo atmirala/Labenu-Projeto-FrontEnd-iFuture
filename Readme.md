@@ -108,7 +108,7 @@ git push origin feature
 
 The [MIT License]() (MIT)
 
-Copyright :copyright: 2020 - 4eddit
+Copyright :copyright: 2020 - iFuture
 
 <br>
 
